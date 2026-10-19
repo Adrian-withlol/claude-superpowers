@@ -4,8 +4,8 @@
     "name": "Adrian Vela"
   },
   "metadata": {
-    "description": "One-command install of Superpowers for Claude Code",
-    "version": "1.0.0"
+    "description": "One-command install of Superpowers, Ponytail and UI UX Pro Max for Claude Code",
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -20,6 +20,35 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git"
+      },
+      "strict": true
+    },
+    {
+      "name": "ponytail",
+      "description": "Lazy senior dev mode: forces the simplest, shortest solution that works. YAGNI, stdlib first, no unrequested abstractions.",
+      "author": {
+        "name": "Dietrich Gebert",
+        "url": "https://github.com/DietrichGebert"
+      },
+      "homepage": "https://github.com/DietrichGebert/ponytail",
+      "license": "MIT",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/DietrichGebert/ponytail.git"
+      },
+      "strict": true
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "description": "UI/UX design intelligence: searchable database of styles, color palettes, font pairings, charts and stack guidelines for designing and reviewing UI.",
+      "author": {
+        "name": "nextlevelbuilder"
+      },
+      "homepage": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git"
       },
       "strict": true
     }
