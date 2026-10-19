@@ -1,0 +1,27 @@
+{
+  "name": "avela-superpowers",
+  "owner": {
+    "name": "Adrian Vela"
+  },
+  "metadata": {
+    "description": "One-command install of Superpowers for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "superpowers",
+      "description": "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques",
+      "author": {
+        "name": "Jesse Vincent",
+        "email": "jesse@fsck.com"
+      },
+      "homepage": "https://github.com/obra/superpowers",
+      "license": "MIT",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers.git"
+      },
+      "strict": true
+    }
+  ]
+}
