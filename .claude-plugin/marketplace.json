@@ -4,8 +4,8 @@
     "name": "Adrian Vela"
   },
   "metadata": {
-    "description": "One-command install of Superpowers, Ponytail and UI UX Pro Max for Claude Code",
-    "version": "1.1.0"
+    "description": "One-command install of Superpowers, Ponytail, UI UX Pro Max and Caveman for Claude Code",
+    "version": "1.2.0"
   },
   "plugins": [
     {
@@ -49,6 +49,21 @@
       "source": {
         "source": "url",
         "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git"
+      },
+      "strict": true
+    },
+    {
+      "name": "caveman",
+      "description": "Ultra-compressed communication mode: cuts filler from replies while keeping technical terms, code, commands and exact errors.",
+      "author": {
+        "name": "Julius Brussee",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "homepage": "https://github.com/JuliusBrussee/caveman",
+      "license": "Apache-2.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JuliusBrussee/caveman.git"
       },
       "strict": true
     }
